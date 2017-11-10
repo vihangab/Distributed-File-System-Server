@@ -5,10 +5,8 @@ Create a different folder for DFC and DFS server and client to segregate the two
 Use gcc dfs.c -o dfs to compile the code for server.
 Use gcc dfc.c -o dfc to compile the code for server.
 Run server by following command from /server-
-# ./dfs DFS1 10001 &
-# ./dfs DFS2 10002 &
-# ./dfs DFS3 10003 &
-# ./dfs DFS4 10004 &
+
+#dfs /DFSn portno
 
 run client by following command /client
 #./dfc
