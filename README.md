@@ -1,7 +1,5 @@
 Distributed File Server:-
 
-Use "tar -xvf viba2345_PA3.tar.gz" to get the server and client side codes.
-
 Create a different folder for DFC and DFS server and client to segregate the two environments - say /server and /client
 
 Use gcc dfs.c -o dfs to compile the code for server.
